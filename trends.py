@@ -7,10 +7,10 @@ from datetime import datetime
 
 
 pytrend = TrendReq()
-for country in ['US']: # UK doesn't work. TODO work out what to use
+for country in ['US', 'GB']: # why does google use GB not UK?
     trendingtoday = pytrend.today_searches(pn=country)
     now = datetime.now()
-    filename = f'Data/{country}/trending_' + now.strftime("%Y-%m-%dT%H_%M_%S") + '.txt'
+    filename = f'Data/{country}/today_searches_' + now.strftime("%Y-%m-%dT%H_%M_%S") + '.txt'
     with open(filename, 'w') as file:
             for item in trendingtoday:
                 term = re.split(r'=|\&', item)[1]
