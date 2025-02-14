@@ -1,0 +1,1 @@
+*/30 * * * * cd /Volumes/SeagateD/Projects/SearchTrendsSocialMediaData; . venv/bin/activate; ./trends.py
