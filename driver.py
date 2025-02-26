@@ -21,5 +21,9 @@ soup = BeautifulSoup(page_source, 'html.parser')
 
 divs = soup.select('div.mZ3RIc')
 
-for div in divs:
-    print(div.text.strip())
+filename = 'trending_words_' + now.strftime("%Y-%m-%dT%H_%M_%S") + '.txt'
+with open(filename, 'w') as file:
+		for div in divs:
+			text = div.text.strip()
+			print(text)
+			file.write(text)
