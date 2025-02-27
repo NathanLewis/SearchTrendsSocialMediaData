@@ -27,3 +27,5 @@ with open(filename, 'w') as file:
 			text = div.text.strip()
 			print(text)
 			file.write(text)
+
+input("Press Enter to continue...")
