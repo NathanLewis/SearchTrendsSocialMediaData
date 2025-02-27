@@ -23,16 +23,14 @@ try:
     )
     element.click()
     
-    # Create Select object
-    #select = Select(dropdown_element)
-    
-    # Select by visible text
-    #select.select_by_visible_text("Download CSV")  # Replace with your desired text
+    newelement = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="yDmH0d"]/c-wiz/div/div[5]/div[1]/c-wiz/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/div/div/ul/li[1]'))
+    )
+
+    newelement.click()
     
     input("Press Enter to exit")
     
 finally:
     # Close the browser window
     driver.quit()
-
-#<li class="W7g1Rb-rymPhb-ibnC6b W7g1Rb-rymPhb-ibnC6b-OWXEXe-hXIJHe W7g1Rb-rymPhb-ibnC6b-OWXEXe-SfQLQb-Woal0c-RWgCYc O68mGe-OQAXze-OWXEXe-SfQLQb-Woal0c-RWgCYc" jsaction="click:o6ZaF; keydown:RDtNu; keyup:JdS61c; focusin:MeMJlc; focusout:bkTmIf; mousedown:teoBgf; mouseup:NZPHBc; mouseenter:SKyDAe; mouseleave:xq3APb; touchstart:jJiBRc; touchmove:kZeBdd; touchend:VfAz8; change:uOgbud;" tabindex="0" role="menuitem" aria-label="Download CSV" data-action="csv"><span class="RBHQF-ksKsZd" jscontroller="LBaJxb" jsname="m9ZlFb"></span><span class="frX3lc-vlkzWd W7g1Rb-rymPhb-sNKcce"></span><span class="W7g1Rb-rymPhb-KkROqb"><i class="google-material-icons notranslate W7g1Rb-rymPhb-Abojl W7g1Rb-rymPhb-H09UMb-bN97Pc" aria-hidden="true"><span class="google-symbols">csv</span></i></span><span class="W7g1Rb-rymPhb-Gtdoyb"><span class="W7g1Rb-rymPhb-fpDzbe-fmcmS" jsname="K4r5Ff">Download CSV</span></span><span class="W7g1Rb-rymPhb-JMEf7e"></span></li>
