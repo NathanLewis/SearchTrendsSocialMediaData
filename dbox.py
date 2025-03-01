@@ -6,9 +6,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
-#from datetime import datetime
+import random
 import time
 import os
+
+#time.sleep(random.randrange(2, 120, 1))
 
 options = Options()
 prefs = { 'download.prompt_for_download': False,
@@ -21,7 +23,7 @@ driver = webdriver.Chrome(options=options)
 try:
     # Navigate to your webpage
     driver.get("https://trends.google.com/trending?geo=US")
-    time.sleep(2)
+    time.sleep(random.randrange(2, 6, 1))
     
     # Wait for dropdown to be clickable
     element = WebDriverWait(driver, 10).until(
@@ -36,10 +38,11 @@ try:
         EC.presence_of_element_located((By.XPATH, '//*[@id="yDmH0d"]/c-wiz/div/div[5]/div[1]/c-wiz/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/div/div/ul/li[1]'))
     )
 
+    time.sleep(random.randrange(1, 2, 1))
+
     newelement.click()
     
-    #input("Press Enter to exit")
-    time.sleep(2)
+    time.sleep(random.randrange(2, 6, 1))
     
 finally:
     # Close the browser window
