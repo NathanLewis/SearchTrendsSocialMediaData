@@ -14,12 +14,25 @@ import os
 # Sleeping for random amounts of time in hopes of appearing more human
 time.sleep(random.randrange(2, 120, 1))
 
+# List of User-Agent strings
+user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
+    "Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1"
+    # Add more User-Agent strings as needed
+]
+
+random_user_agent = random.choice(user_agents)
+
 options = Options()
 prefs = { 'download.prompt_for_download': False,
         "download.default_directory" : f'{os.path.dirname(os.path.abspath(__file__))}/Data' }
 options.add_experimental_option("prefs", prefs)
 options.add_argument("--headless")
+options.add_argument("--no-sandbox")
 options.add_argument("window-size=1920,1080")
+options.add_argument(f"--user-agent={random_user_agent}")
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=options)  
