@@ -1,0 +1,3 @@
+SHELL=/usr/bin/bash
+17 * * * * /home/ec2-user/miner/venv/bin/python /home/ec2-user/miner/trends.py US
+47 * * * * /home/ec2-user/miner/venv/bin/python /home/ec2-user/miner/trends.py GB
