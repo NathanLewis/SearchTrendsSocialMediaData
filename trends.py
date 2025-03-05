@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import random
 import time
+import sys
 import os
 
 # Sleeping for random amounts of time in hopes of appearing more human
@@ -23,9 +24,13 @@ options.add_argument("window-size=1920,1080")
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=options)  
 
+country = 'US'
+if len(sys.argv) > 1:
+    country = sys.argv[1]
+
 try:
     # Navigate to your webpage
-    driver.get("https://trends.google.com/trending?geo=US")
+    driver.get(f"https://trends.google.com/trending?geo={country}")
     time.sleep(random.randrange(3, 4, 1))
     
     # Wait for dropdown to be clickable
