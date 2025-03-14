@@ -20,14 +20,19 @@ user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
     "Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1"
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1"
     # Add more User-Agent strings as needed
 ]
 
 random_user_agent = random.choice(user_agents)
 
+country = 'US'
+if len(sys.argv) > 1:
+    country = sys.argv[1]
+
 options = Options()
 prefs = { 'download.prompt_for_download': False,
-        "download.default_directory" : f'{os.path.dirname(os.path.abspath(__file__))}/Data' }
+        "download.default_directory" : f'{os.path.dirname(os.path.abspath(__file__))}/Data/{country}' }
 options.add_experimental_option("prefs", prefs)
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
@@ -36,10 +41,6 @@ options.add_argument(f"--user-agent={random_user_agent}")
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=options)  
-
-country = 'US'
-if len(sys.argv) > 1:
-    country = sys.argv[1]
 
 try:
     # Navigate to your webpage
