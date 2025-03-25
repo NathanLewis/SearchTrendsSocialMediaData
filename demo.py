@@ -12,7 +12,7 @@ import sys
 import os
 
 # Sleeping for random amounts of time in hopes of appearing more human
-time.sleep(random.randrange(2, 120, 1))
+#time.sleep(random.randrange(2, 120, 1))
 
 # List of User-Agent strings
 user_agents = [
@@ -71,4 +71,5 @@ try:
     
 finally:
     # Close the browser window
+    time.sleep(1)
     driver.quit()
