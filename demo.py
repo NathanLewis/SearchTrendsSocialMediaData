@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! venv/bin/python
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
