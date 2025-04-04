@@ -1,0 +1,1534 @@
+{
+  "timeline": [
+    {
+      "tweet_id": "1905679299966914783",
+      "bookmarks": 418,
+      "created_at": "Fri Mar 28 17:52:05 +0000 2025",
+      "favorites": 7662,
+      "text": "Take a tequila shot every time Obama said “government efficiency” \n https://t.co/gFLaK2Iwbb",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "487826",
+      "quotes": 126,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 1436,
+      "retweets": 1348,
+      "conversation_id": "1905679299966914783",
+      "media": {
+        "video": [
+          {
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905672241142239232/pu/img/8HyKjV1O-BDNrsIS.jpg",
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/pl/0gLQm_E6YTpJWsI9.m3u8?tag=12&v=bd0"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/480x270/IYCV2ZW80GdoToZO.mp4?tag=12"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/640x360/wULbaGSZnWcHXYOr.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/1280x720/KjhHhxhIbYw57tno.mp4?tag=12"
+              }
+            ],
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration": 227460,
+            "original_info": {
+              "height": 720,
+              "width": 1280,
+              "focus_rects": []
+            },
+            "id": "1905672241142239232"
+          }
+        ]
+      },
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      }
+    },
+    {
+      "tweet_id": "1905677405760462873",
+      "bookmarks": 343,
+      "created_at": "Fri Mar 28 17:44:33 +0000 2025",
+      "favorites": 7310,
+      "text": "Someone should do a “Who said it, Obama/Clinton or @DOGE?”\n\nLiterally impossible to tell the difference!",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "723911",
+      "quotes": 67,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1856751787644260354",
+            "name": "Department of Government Efficiency",
+            "screen_name": "DOGE"
+          }
+        ]
+      },
+      "replies": 995,
+      "retweets": 1545,
+      "conversation_id": "1905677405760462873",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905676287668355581",
+        "bookmarks": 240,
+        "created_at": "Fri Mar 28 17:40:07 +0000 2025",
+        "favorites": 988,
+        "text": "2011: Obama signs a @DOGE-style executive order to \"cut waste and promote efficiency.\"\n\nFederal debt then: $14T\nFederal debt now: $36T\n\n\"We don't need to wait for Congress to do something about wasteful spending.\"\n\n\"We've identified thousands of government buildings that have sat https://t.co/YxcTFiiJwh",
+        "lang": "en",
+        "views": "746082",
+        "quotes": 30,
+        "replies": 102,
+        "retweets": 312,
+        "conversation_id": "1905676287668355581",
+        "author": {
+          "rest_id": "1085225533623783424",
+          "name": "KanekoaTheGreat",
+          "screen_name": "KanekoaTheGreat",
+          "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "video": [
+            {
+              "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905672241142239232/pu/img/8HyKjV1O-BDNrsIS.jpg",
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/pl/0gLQm_E6YTpJWsI9.m3u8?tag=12&v=bd0"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/480x270/IYCV2ZW80GdoToZO.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/640x360/wULbaGSZnWcHXYOr.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905672241142239232/pu/vid/avc1/1280x720/KjhHhxhIbYw57tno.mp4?tag=12"
+                }
+              ],
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration": 227460,
+              "original_info": {
+                "height": 720,
+                "width": 1280,
+                "focus_rects": []
+              },
+              "id": "1905672241142239232"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905676627373113669",
+      "bookmarks": 332,
+      "created_at": "Fri Mar 28 17:41:28 +0000 2025",
+      "favorites": 11618,
+      "text": "Concerning",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "1211057",
+      "quotes": 135,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 1556,
+      "retweets": 2854,
+      "conversation_id": "1905676627373113669",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905673075057664434",
+        "bookmarks": 119,
+        "created_at": "Fri Mar 28 17:27:21 +0000 2025",
+        "favorites": 1895,
+        "text": "LAWFARE: Judge Boasberg—the activist judge actively obstructing  Trump’s agenda—has a daughter whose NGO offers legal aid to illegal immigrants, including members of MS-13 and the TdA gang. The NGO is indirectly funded by taxpayers through USAID grants. https://t.co/4iexWvFq6M",
+        "lang": "en",
+        "views": "1244700",
+        "quotes": 116,
+        "replies": 269,
+        "retweets": 880,
+        "conversation_id": "1905673075057664434",
+        "author": {
+          "rest_id": "4239551",
+          "name": "@amuse",
+          "screen_name": "amuse",
+          "avatar": "https://pbs.twimg.com/profile_images/1880789348557168640/QJHxtJWI_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnJO_xKWsAAAiwD.jpg",
+              "id": "1905672449766633472",
+              "sizes": {
+                "h": 1175,
+                "w": 1200
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905673352666071113",
+      "bookmarks": 179,
+      "created_at": "Fri Mar 28 17:28:27 +0000 2025",
+      "favorites": 16187,
+      "text": "😂",
+      "lang": "art",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "1312065",
+      "quotes": 63,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 1102,
+      "retweets": 1853,
+      "conversation_id": "1905673352666071113",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905660334909567285",
+        "bookmarks": 179,
+        "created_at": "Fri Mar 28 16:36:43 +0000 2025",
+        "favorites": 11150,
+        "text": "Trump Leaves Presidency To Become Even More Powerful District Court Judge https://t.co/HAwBpO5hQ9 https://t.co/JDDCA4izJp",
+        "lang": "en",
+        "views": "1485597",
+        "quotes": 178,
+        "replies": 267,
+        "retweets": 1936,
+        "conversation_id": "1905660334909567285",
+        "author": {
+          "rest_id": "4914384040",
+          "name": "The Babylon Bee",
+          "screen_name": "TheBabylonBee",
+          "avatar": "https://pbs.twimg.com/profile_images/1400100770624720898/-HC7kL5x_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnJD-c0WAAEI4kO.jpg",
+              "id": "1905660332497829889",
+              "sizes": {
+                "h": 679,
+                "w": 1200
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905673297439666486",
+      "bookmarks": 241,
+      "created_at": "Fri Mar 28 17:28:14 +0000 2025",
+      "favorites": 15472,
+      "text": "On Sunday night, I will give a talk in Wisconsin.\n\nTo clarify a previous post, entrance is limited to those who have signed the petition in opposition to activist judges.\n\nI will also hand over checks for a million dollars to 2 people to be spokesmen for the petition.",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "1375933",
+      "quotes": 174,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 1846,
+      "retweets": 2359,
+      "conversation_id": "1905673297439666486",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      }
+    },
+    {
+      "tweet_id": "1905631475409494284",
+      "bookmarks": 758,
+      "created_at": "Fri Mar 28 14:42:03 +0000 2025",
+      "favorites": 24179,
+      "text": "Yup",
+      "lang": "qst",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "3701061",
+      "quotes": 191,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 2463,
+      "retweets": 5891,
+      "conversation_id": "1905631475409494284",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905630261502771534",
+        "bookmarks": 1599,
+        "created_at": "Fri Mar 28 14:37:13 +0000 2025",
+        "favorites": 17954,
+        "text": "This is mind blowing\n\nDOGE “There is actually really only ONE BANK ACCOUNT that's used to disperse ALL monies that go out of the federal government”\n\n“It's a big one — A couple weeks ago it had $800 billion in it, it's the treasury general account”\n\n“We're serving 580+ agencies. https://t.co/GLlvfMBi6T",
+        "lang": "en",
+        "views": "4255473",
+        "quotes": 408,
+        "replies": 1040,
+        "retweets": 6407,
+        "conversation_id": "1905630261502771534",
+        "author": {
+          "rest_id": "1099579684981944320",
+          "name": "Wall Street Apes",
+          "screen_name": "WallStreetApes",
+          "avatar": "https://pbs.twimg.com/profile_images/1593753619148382208/YYzzCs6C_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "video": [
+            {
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905630125879910400/img/0I6R9CC5u0UVFgKj.jpg",
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1905630125879910400/pl/XuvlcQ5lJ6bEbr5Q.m3u8?tag=16&v=327"
+                },
+                {
+                  "bitrate": 288000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905630125879910400/vid/avc1/480x270/LOMym66VqQNlHzzB.mp4?tag=16"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905630125879910400/vid/avc1/640x360/b5gci9SBHTusWPcE.mp4?tag=16"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905630125879910400/vid/avc1/1280x720/8FBRt30rsyS8FGvI.mp4?tag=16"
+                }
+              ],
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration": 139033,
+              "original_info": {
+                "height": 720,
+                "width": 1280,
+                "focus_rects": []
+              },
+              "id": "1905630125879910400"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905627466095337523",
+      "bookmarks": 646,
+      "created_at": "Fri Mar 28 14:26:07 +0000 2025",
+      "favorites": 41430,
+      "text": "🎯",
+      "lang": "art",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "12658985",
+      "quotes": 160,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 2094,
+      "retweets": 5531,
+      "conversation_id": "1905627466095337523",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905621259850821814",
+        "bookmarks": 285,
+        "created_at": "Fri Mar 28 14:01:27 +0000 2025",
+        "favorites": 9039,
+        "text": "Conservatives get mad when you lie to them.\n\nProgressives get mad when you tell them the truth.",
+        "lang": "en",
+        "views": "12795762",
+        "quotes": 173,
+        "replies": 487,
+        "retweets": 1609,
+        "conversation_id": "1905621259850821814",
+        "author": {
+          "rest_id": "57441414",
+          "name": "ZUBY:",
+          "screen_name": "ZubyMusic",
+          "avatar": "https://pbs.twimg.com/profile_images/1363770757709508608/EBWhpEq0_normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905618786482323511",
+      "bookmarks": 356,
+      "created_at": "Fri Mar 28 13:51:38 +0000 2025",
+      "favorites": 18671,
+      "text": "Hmm",
+      "lang": "qst",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "3301385",
+      "quotes": 196,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 2421,
+      "retweets": 4789,
+      "conversation_id": "1905618786482323511",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905617089647575446",
+        "bookmarks": 106,
+        "created_at": "Fri Mar 28 13:44:53 +0000 2025",
+        "favorites": 3725,
+        "text": "On January 7, @Meta's Mark Zuckerberg said he was cutting ties w/ fact checkers because they \"destroyed more trust than they created, especially in the US.”\n\nFake news. Meta added a notice yesterday to something I posted, b/c Reuters fact checked a \"similar photo.\" https://t.co/4kpPmU0Kfa",
+        "lang": "en",
+        "views": "3587058",
+        "quotes": 128,
+        "replies": 621,
+        "retweets": 1088,
+        "conversation_id": "1905617089647575446",
+        "author": {
+          "rest_id": "456034260",
+          "name": "Paul D. Thacker",
+          "screen_name": "thackerpd",
+          "avatar": "https://pbs.twimg.com/profile_images/705388986567692288/vZzmU689_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnIbPmTaEAAlNdO.jpg",
+              "id": "1905615547125075968",
+              "sizes": {
+                "h": 986,
+                "w": 594
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905617211705729398",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:45:22 +0000 2025",
+      "favorites": 0,
+      "text": "RT @FoxNews: Elon Musk and DOGE team's federal cost-cutting exclusive interview and more top headlines https://t.co/2MxhhGwqOE",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "11",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [
+          {
+            "display_url": "trib.al/heoZFw4",
+            "expanded_url": "https://trib.al/heoZFw4",
+            "url": "https://t.co/2MxhhGwqOE"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "1367531",
+            "name": "Fox News",
+            "screen_name": "FoxNews"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 1022,
+      "conversation_id": "1905617211705729398",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905597048943996963"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905597048943996963",
+        "bookmarks": 158,
+        "created_at": "Fri Mar 28 12:25:15 +0000 2025",
+        "favorites": 5222,
+        "text": "Elon Musk and DOGE team's federal cost-cutting exclusive interview and more top headlines https://t.co/2MxhhGwqOE",
+        "lang": "en",
+        "views": "710211",
+        "quotes": 35,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "trib.al/heoZFw4",
+              "expanded_url": "https://trib.al/heoZFw4",
+              "url": "https://t.co/2MxhhGwqOE",
+              "indices": [
+                90,
+                113
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "replies": 532,
+        "retweets": 1022,
+        "conversation_id": "1905597048943996963",
+        "author": {
+          "rest_id": "1367531",
+          "name": "Fox News",
+          "screen_name": "FoxNews",
+          "avatar": "https://pbs.twimg.com/profile_images/1591278197844414464/O6Fp0hFB_normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905616665766740084",
+      "bookmarks": 3530,
+      "created_at": "Fri Mar 28 13:43:12 +0000 2025",
+      "favorites": 162447,
+      "text": "Such hypocrisy",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "16775716",
+      "quotes": 507,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 5049,
+      "retweets": 22138,
+      "conversation_id": "1905616665766740084",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905611330662338614",
+        "bookmarks": 354,
+        "created_at": "Fri Mar 28 13:22:00 +0000 2025",
+        "favorites": 9402,
+        "text": "Double standards... https://t.co/FpMOMuvT8T",
+        "lang": "en",
+        "views": "16950114",
+        "quotes": 168,
+        "replies": 346,
+        "retweets": 1912,
+        "conversation_id": "1905611330662338614",
+        "author": {
+          "rest_id": "959471389282578432",
+          "name": "Eva Fo𝕏 🦊 Claudius Nero's Legion",
+          "screen_name": "EvaFoxU",
+          "avatar": "https://pbs.twimg.com/profile_images/1890535872526774272/h5vOOA5b_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnITu3RWUAAddVG.jpg",
+              "id": "1905607288162766848",
+              "sizes": {
+                "h": 599,
+                "w": 591
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905614384467935320",
+      "bookmarks": 1758,
+      "created_at": "Fri Mar 28 13:34:08 +0000 2025",
+      "favorites": 43918,
+      "text": "Wow",
+      "lang": "qst",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "5101505",
+      "quotes": 266,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 2115,
+      "retweets": 7969,
+      "conversation_id": "1905614384467935320",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905369554949222502",
+        "bookmarks": 741,
+        "created_at": "Thu Mar 27 21:21:16 +0000 2025",
+        "favorites": 8206,
+        "text": ".@SecKennedy’s cuts at HHS send a clear message:\n\nLess power to administrators. \n\nMore power to scientists and doctors. https://t.co/yDHPQLVB4Q",
+        "lang": "en",
+        "views": "5183283",
+        "quotes": 275,
+        "replies": 497,
+        "retweets": 1854,
+        "conversation_id": "1905369554949222502",
+        "author": {
+          "rest_id": "16638965",
+          "name": "Calley Means",
+          "screen_name": "calleymeans",
+          "avatar": "https://pbs.twimg.com/profile_images/1799663475997790208/M_qccALm_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnE7bcPW0AAmwsz.jpg",
+              "id": "1905369459977539584",
+              "sizes": {
+                "h": 968,
+                "w": 1200
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905614279748821453",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:33:43 +0000 2025",
+      "favorites": 0,
+      "text": "RT @DC_Draino: Hey Wisconsin - Go vote for\n\nBRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHI…",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "11",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "875856268056969216",
+            "name": "DC_Draino",
+            "screen_name": "DC_Draino"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 16838,
+      "conversation_id": "1905614279748821453",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905330016323273214"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905330016323273214",
+        "bookmarks": 197,
+        "created_at": "Thu Mar 27 18:44:09 +0000 2025",
+        "favorites": 36996,
+        "text": "Hey Wisconsin - Go vote for\n\nBRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD SCHIMEL BRAD",
+        "lang": "en",
+        "views": "1609124",
+        "quotes": 275,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "replies": 714,
+        "retweets": 16838,
+        "conversation_id": "1905330016323273214",
+        "author": {
+          "rest_id": "875856268056969216",
+          "name": "DC_Draino",
+          "screen_name": "DC_Draino",
+          "avatar": "https://pbs.twimg.com/profile_images/1865046713829875712/36ZyH2J__normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905613554339684433",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:30:50 +0000 2025",
+      "favorites": 0,
+      "text": "RT @RapidResponse47: There are 27 different centers at @NIH with 27 different CIOs overseeing 700+ different IT software systems — none of…",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "9",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1881451105454002176",
+            "name": "Rapid Response 47",
+            "screen_name": "RapidResponse47"
+          },
+          {
+            "id_str": "15134240",
+            "name": "NIH",
+            "screen_name": "NIH"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 1622,
+      "conversation_id": "1905613554339684433",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905612186711384314"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905612186711384314",
+        "bookmarks": 251,
+        "created_at": "Fri Mar 28 13:25:24 +0000 2025",
+        "favorites": 6487,
+        "text": "There are 27 different centers at @NIH with 27 different CIOs overseeing 700+ different IT software systems — none of which communicate with each other.\n\n@DOGE is working on connecting the data to empower our biomedical research.",
+        "lang": "en",
+        "views": "1142631",
+        "quotes": 67,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "15134240",
+              "name": "NIH",
+              "screen_name": "NIH",
+              "indices": [
+                34,
+                38
+              ]
+            },
+            {
+              "id_str": "1856751787644260354",
+              "name": "Department of Government Efficiency",
+              "screen_name": "DOGE",
+              "indices": [
+                154,
+                159
+              ]
+            }
+          ]
+        },
+        "replies": 353,
+        "retweets": 1622,
+        "conversation_id": "1905612186711384314",
+        "author": {
+          "rest_id": "1881451105454002176",
+          "name": "Rapid Response 47",
+          "screen_name": "RapidResponse47",
+          "avatar": "https://pbs.twimg.com/profile_images/1883970867215876096/HK4lwY1m_normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905613348575543374",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:30:01 +0000 2025",
+      "favorites": 0,
+      "text": "RT @marklevinshow: Vote Brad Schimel for the Wisconsin Supreme Court so we don’t lose 2 Republican House seats.\n\nhttps://t.co/OwHavMgWTj",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "1",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [
+          {
+            "display_url": "schimelforjustice.com",
+            "expanded_url": "https://schimelforjustice.com/",
+            "url": "https://t.co/OwHavMgWTj"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "38495835",
+            "name": "Mark R. Levin",
+            "screen_name": "marklevinshow"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 6819,
+      "conversation_id": "1905613348575543374",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905055214895272123"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905055214895272123",
+        "bookmarks": 86,
+        "created_at": "Thu Mar 27 00:32:12 +0000 2025",
+        "favorites": 18174,
+        "text": "Vote Brad Schimel for the Wisconsin Supreme Court so we don’t lose 2 Republican House seats.\n\nhttps://t.co/OwHavMgWTj",
+        "lang": "en",
+        "views": "702426",
+        "quotes": 97,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "schimelforjustice.com",
+              "expanded_url": "https://schimelforjustice.com/",
+              "url": "https://t.co/OwHavMgWTj",
+              "indices": [
+                94,
+                117
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "replies": 329,
+        "retweets": 6819,
+        "conversation_id": "1905055214895272123",
+        "author": {
+          "rest_id": "38495835",
+          "name": "Mark R. Levin",
+          "screen_name": "marklevinshow",
+          "avatar": "https://pbs.twimg.com/profile_images/378800000116305623/80c5515ce8244c85105172fe5640f550_normal.jpeg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905613245383049642",
+      "bookmarks": 1223,
+      "created_at": "Fri Mar 28 13:29:36 +0000 2025",
+      "favorites": 38429,
+      "text": "😂🎯",
+      "lang": "art",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "11689810",
+      "quotes": 113,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 1251,
+      "retweets": 2144,
+      "conversation_id": "1905613245383049642",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905563865288413598",
+        "bookmarks": 450,
+        "created_at": "Fri Mar 28 10:13:23 +0000 2025",
+        "favorites": 7795,
+        "text": "💀 https://t.co/OdelIh03ju",
+        "lang": "qme",
+        "views": "12050467",
+        "quotes": 109,
+        "replies": 112,
+        "retweets": 749,
+        "conversation_id": "1905563865288413598",
+        "author": {
+          "rest_id": "50339173",
+          "name": "kitze 🚀",
+          "screen_name": "thekitze",
+          "avatar": "https://pbs.twimg.com/profile_images/1904873457499693056/1PWJytUe_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnHsNaHWgAAJDXW.jpg",
+              "id": "1905563832447041536",
+              "sizes": {
+                "h": 758,
+                "w": 988
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905613154597380244",
+      "bookmarks": 950,
+      "created_at": "Fri Mar 28 13:29:15 +0000 2025",
+      "favorites": 25144,
+      "text": "https://t.co/VnLcmywp6g",
+      "lang": "zxx",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "5846847",
+      "quotes": 118,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 937,
+      "retweets": 4843,
+      "conversation_id": "1905613154597380244",
+      "media": {
+        "video": [
+          {
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905020655638044672/img/QsjRPZa-cUSp42-S.jpg",
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/1905020655638044672/pl/j_aYZm8mbc2tmq2d.m3u8?tag=16&v=6cd"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/1905020655638044672/vid/avc1/480x270/tLhGpBk84WIrEx49.mp4?tag=16"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/1905020655638044672/vid/avc1/640x360/gfuMOOMEZWKk1KXW.mp4?tag=16"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/1905020655638044672/vid/avc1/960x540/E2gJ6UVWeRbBrRVq.mp4?tag=16"
+              }
+            ],
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration": 81105,
+            "original_info": {
+              "height": 540,
+              "width": 960,
+              "focus_rects": []
+            },
+            "id": "1905020655638044672"
+          }
+        ]
+      },
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      }
+    },
+    {
+      "tweet_id": "1905611611580084360",
+      "bookmarks": 644,
+      "created_at": "Fri Mar 28 13:23:07 +0000 2025",
+      "favorites": 50123,
+      "text": "As it should be 🇺🇸🇺🇸",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "9733389",
+      "quotes": 184,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "replies": 2604,
+      "retweets": 7087,
+      "conversation_id": "1905611611580084360",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "quoted": {
+        "tweet_id": "1905316593132806269",
+        "bookmarks": 379,
+        "created_at": "Thu Mar 27 17:50:49 +0000 2025",
+        "favorites": 30107,
+        "text": "“The DoD will be merit based and colorblind. You will be judged based on how good you are at your job. FULL STOP.” - Defense Secretary Pete Hegseth\n\nBOOM https://t.co/GQ4DQ3xvJ0",
+        "lang": "en",
+        "views": "10259415",
+        "quotes": 217,
+        "replies": 976,
+        "retweets": 4157,
+        "conversation_id": "1905316593132806269",
+        "author": {
+          "rest_id": "1326229737551912960",
+          "name": "Libs of TikTok",
+          "screen_name": "libsoftiktok",
+          "avatar": "https://pbs.twimg.com/profile_images/1489097242321428482/sQSUN_M6_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "video": [
+            {
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905316510945435648/img/IAj4PFqXiY50_U2P.jpg",
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1905316510945435648/pl/ZFR4EcmO5wSrHHLj.m3u8?tag=16&v=9b1"
+                },
+                {
+                  "bitrate": 288000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905316510945435648/vid/avc1/480x270/qwCW5BBUl9KaZqJ4.mp4?tag=16"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905316510945435648/vid/avc1/640x360/4AxnAYL3JGaw2iIk.mp4?tag=16"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905316510945435648/vid/avc1/1280x720/ePJ3YyVl2kAtdX10.mp4?tag=16"
+                }
+              ],
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration": 60893,
+              "original_info": {
+                "height": 720,
+                "width": 1280,
+                "focus_rects": []
+              },
+              "id": "1905316510945435648"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905611230343032880",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:21:36 +0000 2025",
+      "favorites": 0,
+      "text": "RT @cb_doge: BREAKING: Grok remains the #1 app on Android. 🇺🇸\n\nIf you haven't downloaded it yet, get the Grok standalone app now! https://t…",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "3",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1389913567671975937",
+            "name": "DogeDesigner",
+            "screen_name": "cb_doge"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 572,
+      "conversation_id": "1905611230343032880",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905607512046665738"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905607512046665738",
+        "bookmarks": 74,
+        "created_at": "Fri Mar 28 13:06:50 +0000 2025",
+        "favorites": 3208,
+        "text": "BREAKING: Grok remains the #1 app on Android. 🇺🇸\n\nIf you haven't downloaded it yet, get the Grok standalone app now! https://t.co/8vd8rWrGSf",
+        "lang": "en",
+        "views": "573762",
+        "quotes": 28,
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/8vd8rWrGSf",
+              "expanded_url": "https://x.com/cb_doge/status/1905607512046665738/photo/1",
+              "id_str": "1905607183062237186",
+              "indices": [
+                117,
+                140
+              ],
+              "media_key": "3_1905607183062237186",
+              "media_url_https": "https://pbs.twimg.com/media/GnITovvbgAILO3m.jpg",
+              "type": "photo",
+              "url": "https://t.co/8vd8rWrGSf",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "medium": {
+                  "faces": []
+                },
+                "small": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1080,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 1080,
+                  "w": 1080,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 680,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1080,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 605
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 135,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  }
+                ]
+              },
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1905607183062237186"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "replies": 407,
+        "retweets": 572,
+        "conversation_id": "1905607512046665738",
+        "author": {
+          "rest_id": "1389913567671975937",
+          "name": "DogeDesigner",
+          "screen_name": "cb_doge",
+          "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_normal.jpg",
+          "blue_verified": true
+        },
+        "media": {
+          "photo": [
+            {
+              "media_url_https": "https://pbs.twimg.com/media/GnITovvbgAILO3m.jpg",
+              "id": "1905607183062237186",
+              "sizes": {
+                "h": 1080,
+                "w": 1080
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tweet_id": "1905610735159308616",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:19:38 +0000 2025",
+      "favorites": 0,
+      "text": "RT @themarketswork: A 30 minute highlight reel of government waste and fraud. Perfect explainer of what @DOGE really does - and what they’r…",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "15",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "792096589191852033",
+            "name": "Jeff Carlson",
+            "screen_name": "themarketswork"
+          },
+          {
+            "id_str": "1856751787644260354",
+            "name": "Department of Government Efficiency",
+            "screen_name": "DOGE"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 1299,
+      "conversation_id": "1905610735159308616",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905609507322933368"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905609507322933368",
+        "bookmarks": 514,
+        "created_at": "Fri Mar 28 13:14:45 +0000 2025",
+        "favorites": 5183,
+        "text": "A 30 minute highlight reel of government waste and fraud. Perfect explainer of what @DOGE really does - and what they’re finding.\n\nIf Americans truly understood they would support at 80/20 levels. They also might vote out most of Congress who allowed all of this to happen.",
+        "lang": "en",
+        "views": "934644",
+        "quotes": 49,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "1856751787644260354",
+              "name": "Department of Government Efficiency",
+              "screen_name": "DOGE",
+              "indices": [
+                84,
+                89
+              ]
+            }
+          ]
+        },
+        "replies": 330,
+        "retweets": 1299,
+        "conversation_id": "1905609507322933368",
+        "author": {
+          "rest_id": "792096589191852033",
+          "name": "Jeff Carlson",
+          "screen_name": "themarketswork",
+          "avatar": "https://pbs.twimg.com/profile_images/1819147341825560576/xAK-qHi-_normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    },
+    {
+      "tweet_id": "1905608846577381712",
+      "bookmarks": 0,
+      "created_at": "Fri Mar 28 13:12:08 +0000 2025",
+      "favorites": 0,
+      "text": "RT @farzyness: I can’t emphasize it enough.\n\nMust watch for every American.",
+      "lang": "en",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "views": "15",
+      "quotes": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "17862108",
+            "name": "Farzad",
+            "screen_name": "farzyness"
+          }
+        ]
+      },
+      "replies": 0,
+      "retweets": 1405,
+      "conversation_id": "1905608846577381712",
+      "media": [],
+      "author": {
+        "rest_id": "44196397",
+        "name": "Elon Musk",
+        "screen_name": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+        "blue_verified": true
+      },
+      "retweeted": {
+        "id": "1905603959038894564"
+      },
+      "retweeted_tweet": {
+        "tweet_id": "1905603959038894564",
+        "bookmarks": 742,
+        "created_at": "Fri Mar 28 12:52:42 +0000 2025",
+        "favorites": 6878,
+        "text": "I can’t emphasize it enough.\n\nMust watch for every American.",
+        "lang": "en",
+        "views": "940531",
+        "quotes": 43,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "replies": 364,
+        "retweets": 1405,
+        "conversation_id": "1905603959038894564",
+        "author": {
+          "rest_id": "17862108",
+          "name": "Farzad",
+          "screen_name": "farzyness",
+          "avatar": "https://pbs.twimg.com/profile_images/1863976029368270848/NccgxqmW_normal.jpg",
+          "blue_verified": true
+        },
+        "media": []
+      }
+    }
+  ],
+  "next_cursor": "DAABCgABGnJYolW__-kKAAIachUmTRYxUAgAAwAAAAIAAA",
+  "prev_cursor": "DAABCgABGnJYolXAJxEKAAIaclU6AlfQ3wgAAwAAAAEAAA",
+  "status": "ok",
+  "user": {
+    "status": "active",
+    "profile": "elonmusk",
+    "rest_id": "44196397",
+    "blue_verified": true,
+    "affiliates": {
+      "label": {
+        "url": {
+          "url": "https://twitter.com/X",
+          "urlType": "DeepLink"
+        },
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_bigger.jpg"
+        },
+        "description": "X",
+        "userLabelType": "BusinessLabel",
+        "userLabelDisplayType": "Badge"
+      }
+    },
+    "business_account": [],
+    "avatar": "https://pbs.twimg.com/profile_images/1893803697185910784/Na5lOWi5_normal.jpg",
+    "header_image": "https://pbs.twimg.com/profile_banners/44196397/1739948056",
+    "desc": "",
+    "name": "Elon Musk",
+    "protected": null,
+    "location": "",
+    "friends": 1097,
+    "sub_count": 219452678,
+    "statuses_count": 75853,
+    "media_count": 3720,
+    "created_at": "Tue Jun 02 20:12:29 +0000 2009",
+    "pinned_tweet_ids_str": [
+      "1905484309709848658"
+    ],
+    "id": "44196397"
+  }
+}
