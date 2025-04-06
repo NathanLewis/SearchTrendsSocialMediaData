@@ -13,7 +13,7 @@ with open(fname) as file:
     contents = json.loads(file.read())
 
 wanted = ['tweet_id', 'created_at', 'text', 'lang', 'conversation_id', 'bookmarks', 'views', 'favorites', 'quotes', 'replies', 'retweets']
-ekeys0 = ['urls', 'hashtags', 'symbols', 'timestamps']
+ekeys0 = ['urls', 'user_mentions', 'hashtags', 'symbols', 'timestamps']
 qkeys0 = ['text', 'tweet_id', 'author', 'image', 'video', 'media']
 qkeys = ['quoted.' + q for q in qkeys0]
 sheetheader = wanted + ['image', 'video'] + qkeys + ['entities.' + ky for ky in ekeys0]
