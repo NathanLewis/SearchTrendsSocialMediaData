@@ -54,7 +54,7 @@ with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
                 if len(res['media']['video']) > 1:
                     video1 = res['media']['video'][1]
                     sheetDict['video'] = video1
-                    print(video1)
+                    print(f'Adding Video {video1}')
 
         entities = res['entities']
         #print(res.keys())
