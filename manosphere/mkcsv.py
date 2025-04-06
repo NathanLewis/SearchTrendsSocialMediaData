@@ -19,29 +19,26 @@ qkeys = ['quoted.' + q for q in qkeys0]
 #eheader = wanted + ['entities.' + ky for ky in ekeys] + ['quoted.' + q for q in qkeys]
 sheetheader = wanted + ['image', 'video'] + ['quoted.' + q for q in qkeys0] + ['entities.' + ky for ky in ekeys]
 print(sheetheader)
-sheetDict = {}
-#[ sheetDict[key] = '' for key in sheetheader ] # initialize to blank strings
-for key in sheetheader:
-    sheetDict[key] = ''
-with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
+#with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
+with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
     writer = csv.DictWriter(tsvfile, fieldnames=sheetheader, delimiter='\t')
     writer.writeheader()
     for res in contents['timeline']:
-        #intersection = [ x for x in res.keys() if x in wanted]
+        sheetDict = {}
+        for key in sheetheader:
+            sheetDict[key] = ''
         if isinstance(res['media'], list):
             if len(res['media']) > 0:
                 print('Unexpected media')
                 print(json.dumps(res['media']))
 
-        #row = [ res[key] for key in wanted]
         for key in sheetheader:
             if key in res:
                 sheetDict[key] = res[key]
-        video1 = ''
         if isinstance(res['media'], dict): 
             if 'quoted' in res:
-                #print('row has both media and quoted')
-                print(json.dumps(res))
+                print(f'row has both media and quoted {json.dumps(res)}')
+                #print(json.dumps(res))
             if 'photo' in res['media']:
                 print(res['media']['photo'][0]['media_url_https'])
                 #row.append(image)
