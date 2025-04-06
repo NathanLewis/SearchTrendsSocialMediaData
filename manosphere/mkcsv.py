@@ -13,10 +13,10 @@ with open(fname) as file:
     contents = json.loads(file.read())
 
 wanted = ['tweet_id', 'created_at', 'text', 'lang', 'conversation_id', 'bookmarks', 'views', 'favorites', 'quotes', 'replies', 'retweets']
-ekeys = ['urls', 'hashtags', 'symbols', 'timestamps']
+ekeys0 = ['urls', 'hashtags', 'symbols', 'timestamps']
 qkeys0 = ['text', 'tweet_id', 'author', 'image', 'video', 'media']
 qkeys = ['quoted.' + q for q in qkeys0]
-sheetheader = wanted + ['image', 'video'] + qkeys + ['entities.' + ky for ky in ekeys]
+sheetheader = wanted + ['image', 'video'] + qkeys + ['entities.' + ky for ky in ekeys0]
 print(sheetheader)
 #with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
 with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
@@ -75,8 +75,8 @@ with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
                 print(f'sheetDict[quoted.{key}] = {quoted[key]}')
                 sheetDict['quoted.'+key] = quoted[key]
 
-        #for key in ekeys:
+        for key in ekeys0:
+            sheetDict['entities.'+key] = entities[key]
             #if key in entities and key in sheetheader:
-                #sheetDict[key] = entities[key]
 
         writer.writerow(sheetDict)
