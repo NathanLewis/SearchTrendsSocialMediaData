@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 import json
 import csv
+#import argparse
+import sys
 
 contents = {}
-with open('musk_28_03_2025.json') as file:
+fname = 'musk_28_03_2025.json'
+if len(sys.argv) > 1:
+    fname = sys.argv[1]
+
+with open(fname) as file:
     contents = json.loads(file.read())
 
 wanted = ['tweet_id', 'created_at', 'text', 'lang', 'conversation_id', 'bookmarks', 'views', 'favorites', 'quotes', 'replies', 'retweets']
@@ -11,7 +17,7 @@ ekeys = ['urls', 'hashtags', 'symbols', 'timestamps']
 qkeys = ['text', 'tweet_id', 'author', 'media']
 #eheader = wanted + ['entities.' + ky for ky in ekeys] + ['quoted.' + q for q in qkeys]
 eheader = wanted + ['image'] + ['quoted.' + q for q in qkeys] + ['entities.' + ky for ky in ekeys]
-with open('output.tsv', 'w', newline="\r\n") as tsvfile:
+with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
     writer = csv.DictWriter(tsvfile, fieldnames=eheader, delimiter='\t')
     writer.writeheader()
     for res in contents['timeline']:
@@ -38,6 +44,12 @@ with open('output.tsv', 'w', newline="\r\n") as tsvfile:
         #print(res.keys())
         if 'quoted' in res:
             quoted = res['quoted']
+            if 'media' in quoted:
+                quoted['media'] = json.dumps(quoted['media'])
+                print(quoted['media'])
+
+            if 'author' in quoted:
+                quoted['author'] = json.dumps(quoted['author'])
             qrow = [ quoted[key] for key in qkeys ]
         else:
             qrow = [ '' for key in qkeys ]
