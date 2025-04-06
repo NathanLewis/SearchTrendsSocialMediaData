@@ -59,26 +59,24 @@ with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
             quoted['image'] = ''
             quoted['video'] = ''
             if 'media' in quoted:
-                quoted['media'] = json.dumps(quoted['media'])
                 #print(quoted['media'])
+                if 'video' in quoted['media']:
+                    quoted['image'] = quoted['media']['video'][0]['media_url_https']
+                    quoted['video'] = quoted['media']['video'][0]['variants'][1]['url']
+                if 'photo' in quoted['media']:
+                    #print(res['media']['photo'][0]['media_url_https'])
+                    quoted['image'] = quoted['media']['photo'][0]['media_url_https']
+                quoted['media'] = json.dumps(quoted['media'])
 
             if 'author' in quoted:
                 #quoted['author'] = json.dumps(quoted['author'])
                 sheetDict['quoted.author'] = json.dumps(quoted['author'])
-            #qrow = [ quoted[key] for key in qkeys ]
             for key in qkeys0:
                 print(f'sheetDict[quoted.{key}] = {quoted[key]}')
                 sheetDict['quoted.'+key] = quoted[key]
-        #else:
-        #    qrow = [ '' for key in qkeys ]
-        #erow = [ entities[key] for key in ekeys ]
+
         #for key in ekeys:
             #if key in entities and key in sheetheader:
                 #sheetDict[key] = entities[key]
-        #writer.writerow(dict(zip(eheader, row + qrow + erow)))
-        Keys = sheetDict.keys()
-        for key in Keys:
-            if key not in sheetheader:
-                print(f'{key} not in sheetheader')
-                #del sheetDict[key]
+
         writer.writerow(sheetDict)
