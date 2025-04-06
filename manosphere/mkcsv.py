@@ -14,10 +14,9 @@ with open(fname) as file:
 
 wanted = ['tweet_id', 'created_at', 'text', 'lang', 'conversation_id', 'bookmarks', 'views', 'favorites', 'quotes', 'replies', 'retweets']
 ekeys = ['urls', 'hashtags', 'symbols', 'timestamps']
-qkeys0 = ['text', 'tweet_id', 'author', 'media']
+qkeys0 = ['text', 'tweet_id', 'author', 'image', 'video', 'media']
 qkeys = ['quoted.' + q for q in qkeys0]
-#eheader = wanted + ['entities.' + ky for ky in ekeys] + ['quoted.' + q for q in qkeys]
-sheetheader = wanted + ['image', 'video'] + ['quoted.' + q for q in qkeys0] + ['entities.' + ky for ky in ekeys]
+sheetheader = wanted + ['image', 'video'] + qkeys + ['entities.' + ky for ky in ekeys]
 print(sheetheader)
 #with open(fname.replace('.json','.tsv'), 'w', newline="\r\n") as tsvfile:
 with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
@@ -57,6 +56,8 @@ with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
         #print(res.keys())
         if 'quoted' in res:
             quoted = res['quoted']
+            quoted['image'] = ''
+            quoted['video'] = ''
             if 'media' in quoted:
                 quoted['media'] = json.dumps(quoted['media'])
                 #print(quoted['media'])
