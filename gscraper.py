@@ -23,7 +23,7 @@ user_agents = [
 
 def automate_xcom_login():
 
-    random_user_agent = random.choice(user_agents)
+    #random_user_agent = random.choice(user_agents)
 
     # Set up Chrome driver (adjust path as needed)
     options = Options()
@@ -34,7 +34,7 @@ def automate_xcom_login():
     options.add_argument("--no-sandbox")
     #options.add_argument("--auto-open-devtools-for-tabs")
     #options.add_argument("window-size=1920,1080")
-    options.add_argument(f"--user-agent={random_user_agent}")
+    options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0")
 
     # Initialize the WebDriver
     driver = webdriver.Chrome(options=options)
@@ -43,6 +43,9 @@ def automate_xcom_login():
     try:
         # Navigate to X.com login page
         driver.get("https://x.com/i/flow/login")
+  
+        #react-root > div > div > div > main > div > div > div > div.css-175oi2r.r-1ny4l3l.r-6koalj.r-16y2uox > div.css-175oi2r.r-16y2uox.r-f8sm7e.r-13qz1uu > div > div.css-175oi2r.r-1mmae3n.r-1e084wi.r-13qz1uu > label > div > div.css-175oi2r.r-18u37iz.r-16y2uox.r-1wbh5a2.r-1wzrnnt.r-1udh08x.r-xd6kpl.r-is05cd.r-ttdzmv
+        input("Press any key to continue")
 
         username_path = '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[4]/label/div/div[2]/div/input'
         
