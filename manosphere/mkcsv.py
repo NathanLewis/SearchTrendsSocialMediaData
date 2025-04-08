@@ -39,16 +39,21 @@ with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
                 print(f'row has both media and quoted {json.dumps(res)}')
                 #print(json.dumps(res))
             if 'photo' in res['media']:
-                print(res['media']['photo'][0]['media_url_https'])
+                #print(res['media']['photo'][0]['media_url_https'])
                 #row.append(image)
                 sheetDict['image'] = image
             if 'video' in res['media']:
-                print(res['media']['video'][0]['media_url_https'])  # brittle code
+                #print(res['media']['video'][0]['media_url_https'])  # brittle code
                 image = res['media']['video'][0]['media_url_https']        
                 #row.append(image) # potentially clobbering the previous photo
                 sheetDict['image'] = image
-                if len(res['media']['video']) > 1:
-                    video1 = res['media']['video'][1]
+                print('Got video!')
+                if len(res['media']['video']) > 0:
+                    #video1 = res['media']['video'][1]
+                    #video1 = res['media']['video'][0]['variants'][1]['url']
+                    video1 = res['media']['video'][0]['variants'][0]['url']
+                    #print(json.dumps(res['media']['video'][0]['variants'][0]['url']))
+                    print(video1)
                     sheetDict['video'] = video1
                     print(f'Adding Video {video1}')
 
@@ -72,7 +77,7 @@ with open(fname.replace('.json','.tsv'), 'w') as tsvfile:
                 #quoted['author'] = json.dumps(quoted['author'])
                 sheetDict['quoted.author'] = json.dumps(quoted['author'])
             for key in qkeys0:
-                print(f'sheetDict[quoted.{key}] = {quoted[key]}')
+                #print(f'sheetDict[quoted.{key}] = {quoted[key]}')
                 sheetDict['quoted.'+key] = quoted[key]
 
         for key in ekeys0:
