@@ -15,12 +15,10 @@ else:
 
 def fix_volume(row: dict[str, str]):
     volume = row['Search volume']
-    if volume.endswith('+'):
-        row['volume +'] = '+'
-        volume = volume.replace('+', '')
-    else:
-        row['volume +'] = ''
-    row['Search volume'] = volume.replace('K', '000')
+    volume = volume.replace('+', '')
+    volume = volume.replace('K', '000')
+    volume = volume.replace('M', '000000')
+    row['Search volume'] = volume
     return row
 
 with open(fname) as csvfile:
@@ -28,11 +26,11 @@ with open(fname) as csvfile:
     row1 = next(reader)
     sheetheader = list(row1.keys())
     #print(sheetheader)
-    newsheetheader = sheetheader[0:2] + ['volume +'] + sheetheader[2:]
+    #newsheetheader = sheetheader[0:2] + ['volume +'] + sheetheader[2:]
     #print(newsheetheader)
     #print(row1.values())
     with open(fname.replace('original', 'modified'), 'w') as outputcsv:
-        writer = csv.DictWriter(outputcsv, fieldnames=newsheetheader)
+        writer = csv.DictWriter(outputcsv, fieldnames=sheetheader)
         writer.writeheader()
         row1 = fix_volume(row1)
         #print(row1)
