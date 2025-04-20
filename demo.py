@@ -45,7 +45,9 @@ driver = webdriver.Chrome(options=options)
 
 try:
     # Navigate to your webpage
-    driver.get(f"https://trends.google.com/trending?geo={country}")
+    #driver.get(f"https://trends.google.com/trending?geo={country}")
+    # Category 14 is politics
+    driver.get(f"https://trends.google.com/trending?geo={country}&hl=en-US&category=14&hours=24")
     time.sleep(1)
     
     # Wait for dropdown to be clickable
