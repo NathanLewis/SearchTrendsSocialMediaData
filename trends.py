@@ -22,6 +22,7 @@ user_agents = [
     "Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1"
     "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1"
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15"
     # Add more User-Agent strings as needed
 ]
@@ -46,7 +47,9 @@ driver = webdriver.Chrome(options=options)
 
 try:
     # Navigate to your webpage
-    driver.get(f"https://trends.google.com/trending?geo={country}")
+    #driver.get(f"https://trends.google.com/trending?geo={country}")
+    # Category 14 is politics
+    driver.get(f"https://trends.google.com/trending?geo={country}&hl=en-US&category=14&hours=24")
     time.sleep(random.randrange(3, 4, 1))
     
     # Wait for dropdown to be clickable
