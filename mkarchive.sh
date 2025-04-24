@@ -2,6 +2,13 @@
 
 set -eu
 
+cp *.csv original
+# repack them
+for file in original/*.csv; do ./modcsv.py $file; done
+
+cd modified
+echo $PWD
+
 list=( $(ls -1 *.csv) ) 
 echo ${list[0]}
 echo ${list[-1]}
@@ -16,3 +23,5 @@ tar -zcvf $tarfile *.csv
 country=${tarfile:9:2}
 aws s3 cp $tarfile s3://searchtrendssocialmediadata/${country}/
 tar -ztvf $tarfile | awk '{ print $6 }' | xargs rm
+tar -ztvf $tarfile | awk '{ print "../original/"$6 }' | xargs rm
+tar -ztvf $tarfile | awk '{ print "../"$6 }' | xargs rm
