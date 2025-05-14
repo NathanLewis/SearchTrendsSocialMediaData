@@ -4,13 +4,13 @@
 import sys
 import time
 import logging
+import subprocess
 from watchdog.observers import Observer
 #from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
 
 class CSVHandler(FileSystemEventHandler):
     def __init__(self, logging):
-        #self.path = path
         self.logging = logging
 
     def on_any_event(self, event):
